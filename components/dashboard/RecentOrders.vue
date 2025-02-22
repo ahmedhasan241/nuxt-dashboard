@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { productPerformance } from '@/data/dashboard/dashboardData';
+import { recentOrders } from '@/data/dashboard/dashboardData';
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import { productPerformance } from '@/data/dashboard/dashboardData';
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="item in productPerformance" :key="item.id" class="order-item">
+                    <tr v-for="item in recentOrders" :key="item.id" class="order-item">
                         <td>
                             <div class="d-flex align-center">
                                 <v-avatar size="40" class="me-3">

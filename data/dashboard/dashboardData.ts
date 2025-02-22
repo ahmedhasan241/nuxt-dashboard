@@ -1,4 +1,4 @@
-import type {  productPerformanceType, productsCards , DashboardMetric } from '@/types/dashboard/index';
+import type {  recentOrderType, productsCards , DashboardMetric } from '@/types/dashboard/index';
 
 /* -- DashboardMetric -- */
 import icon1 from '/icons/revenue.svg';
@@ -38,8 +38,7 @@ import phone2 from '/images/products/phone-2.svg';
 import phone3 from '/images/products/phone-3.svg';
 
 
-/*Basic Table 1*/
-const productPerformance: productPerformanceType[] = [
+const recentOrders: recentOrderType[] = [
     {
         id: 1,
         image: phone1,
@@ -144,4 +143,4 @@ const productsCard: productsCards[] = [
 ];
 
 
-export { productPerformance, productsCard , DashboardMetrics}
+export { recentOrders, productsCard , DashboardMetrics}

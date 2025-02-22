@@ -8,8 +8,8 @@ type DashboardMetric = {
 }
 
 
-/*product performance*/
-type productPerformanceType = {
+/*recent Orders*/
+type recentOrderType = {
     id: number;
     image: string;
     name: string;
@@ -30,4 +30,4 @@ type productsCards = {
     rating: number;
 };
 
-export type {  productPerformanceType, productsCards , DashboardMetric }
+export type {  recentOrderType, productsCards , DashboardMetric }
