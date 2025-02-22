@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/vite-builder": "^3.15.4",
+    "@pinia/nuxt": "^0.10.1",
+    "@tabler/icons-vue": "^3.30.0",
+    "apexcharts": "4.5.0",
+    "sass": "^1.85.0",
+    "vue": "3.5.13",
+    "vue-tabler-icons": "2.21.0",
+    "vue3-apexcharts": "1.8.0",
+    "vuetify": "3.7.13"
+  },
+  "devDependencies": {
+    "nuxt": "3.15.4"
+  }
+}
