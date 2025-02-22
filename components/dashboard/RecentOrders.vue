@@ -12,7 +12,7 @@ import { recentOrders } from '@/data/dashboard/dashboardData';
                 Go To Orders Page</NuxtLink>
 
             </div>
-            <v-table class="order-table">
+            <v-table class="order-table-home">
                 <thead>
                     <tr>
                         <th class="text-subtitle-1 font-weight-bold">Item Name</th>

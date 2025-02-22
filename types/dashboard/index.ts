@@ -29,5 +29,31 @@ type productsCards = {
     price: number;
     rating: number;
 };
+/* Transaction Type */
+type TransactionType = {
+    id: number;
+    date: string;
+    description: string;
+    amount: string;
+    status: string;
+  };
+  
+  /* Report Type */
+type ReportType = {
+    id: number;
+    title: string;
+    date: string;
+    type: string;
+    summary: string;
+  };
+  
 
-export type {  recentOrderType, productsCards , DashboardMetric }
+  /* User Type */
+type UserType = {
+    id: number;
+    name: string;
+    email: string;
+    role: string;
+    avatar: string;
+  };
+export type {  recentOrderType, productsCards , DashboardMetric , TransactionType , ReportType , UserType  }

@@ -52,6 +52,7 @@ import { recentOrders } from '@/data/dashboard/dashboardData';
 
 <style >
 .order-table {
-    padding: 24px;
+    padding:  0 24px 24px;
+
 }
 </style>

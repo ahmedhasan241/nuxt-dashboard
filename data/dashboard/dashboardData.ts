@@ -1,4 +1,4 @@
-import type {  recentOrderType, productsCards , DashboardMetric } from '@/types/dashboard/index';
+import type {  recentOrderType, productsCards , DashboardMetric , TransactionType ,ReportType , UserType   } from '@/types/dashboard/index';
 
 /* -- DashboardMetric -- */
 import icon1 from '/icons/revenue.svg';
@@ -142,5 +142,92 @@ const productsCard: productsCards[] = [
     }
 ];
 
+const transactions: TransactionType[] = [
+    {
+      id: 1,
+      date: 'February 15, 2025',
+      description: 'Payment received from Client A',
+      amount: '$250.00',
+      status: 'Completed'
+    },
+    {
+      id: 2,
+      date: 'February 14, 2025',
+      description: 'Refund issued to Client B',
+      amount: '-$75.00',
+      status: 'Completed'
+    },
+    {
+      id: 3,
+      date: 'February 13, 2025',
+      description: 'Subscription charge for Service C',
+      amount: '$20.00',
+      status: 'Pending'
+    },
+    {
+      id: 4,
+      date: 'February 12, 2025',
+      description: 'Payment received from Client D',
+      amount: '$300.00',
+      status: 'Completed'
+    }
+  ];
 
-export { recentOrders, productsCard , DashboardMetrics}
+/* Sample Reports Data */
+const reports: ReportType[] = [
+    {
+      id: 1,
+      title: 'Monthly Sales Report',
+      date: 'February 2025',
+      type: 'Sales',
+      summary: 'Overview of monthly sales figures.'
+    },
+    {
+      id: 2,
+      title: 'User Engagement Report',
+      date: 'February 2025',
+      type: 'Engagement',
+      summary: 'Analysis of user activity and retention.'
+    },
+    {
+      id: 3,
+      title: 'Revenue Growth Report',
+      date: 'February 2025',
+      type: 'Revenue',
+      summary: 'Insights into revenue trends and growth metrics.'
+    }
+  ];
+
+
+  /* Sample Users Data */
+const users: UserType[] = [
+    {
+      id: 1,
+      name: 'John Doe',
+      email: 'john@example.com',
+      role: 'Administrator',
+      avatar: '/images/users/avatar-1.jpg'
+    },
+    {
+      id: 2,
+      name: 'Jane Doe',
+      email: 'jane@example.com',
+      role: 'User',
+      avatar: '/images/users/avatar-1.jpg'
+    },
+    {
+      id: 3,
+      name: 'Alice Smith',
+      email: 'alice@example.com',
+      role: 'Moderator',
+      avatar: '/images/users/avatar-1.jpg'
+    },
+    {
+      id: 4,
+      name: 'Bob Johnson',
+      email: 'bob@example.com',
+      role: 'User',
+      avatar: '/images/users/avatar-1.jpg'
+    }
+  ];
+export { recentOrders, productsCard , DashboardMetrics , transactions , reports , users }
